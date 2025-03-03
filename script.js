@@ -18,7 +18,7 @@ document.addEventListener("DOMContentLoaded", () => {
     quiz.style.display = "none";
     logo.style.display = "none";
 
-    if (parseInt(input.value) === 8) {
+    if (input.value == "8") {
       title.querySelector("h1").innerHtml = updateHeading(
         "Yay! Kamu berhasil mendapatkan",
         true
